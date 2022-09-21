@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+figcaption {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 50%
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+p {
+    margin: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ingredientsList, .stepsList {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+li {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.youtubeVideo, .googleMap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
