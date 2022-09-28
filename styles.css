@@ -1,59 +1,142 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-    text-align: center;
-    font-style: italic;
-    font-size: 50px;
+body {
+  background-color: #84a98c;
 }
 
-h1, h2 {
-    text-decoration: underline
+header {
+  margin-top: 80px;
+  text-align: center;
 }
 
-figcaption {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+main {
+  margin-bottom: 80px;
 }
 
-img {
-    width: 50%
+footer {
+  width: 100%;
+  position: fixed;
+  background-color: #cad2c5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: 0;
+  left: 0;
 }
 
 h2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
+  text-decoration: underline;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
-p {
-    margin: 2rem;
-    margin-top: 0;
-    margin-bottom: 0;
+.navbar {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  position: fixed;
+  background-color: #cad2c5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0;
+  left: 0;
 }
 
-.ingredientsList, .stepsList {
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid #ccc;
-    border-radius: 20px;
-    margin: 2rem;
-    padding: 2rem;
-    background-color: #333
+.navbarList {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: end;
 }
 
-li {
-    width: 100%;
-    margin-bottom: 1rem;
-    color: #fff
+.navbarList li {
+  margin-right: 20px;
 }
 
-.youtubeVideo, .googleMap {
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
+.recipeIntroduction img {
+  width: 50%;
+}
+
+.recipeTitle {
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+}
+.footerSocials {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+.footerSocials li {
+  width: 100%;
+}
+
+.navbarList a,
+.footerSocials a {
+  text-decoration: none;
+  color: black;
+}
+
+.footerSocials img {
+  width: 30px;
+}
+
+.recipeIntroduction figcaption {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.recipeIntroduction p {
+  margin: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ingredientsList,
+.stepsList {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #52796f;
+}
+
+.ingredientsList li,
+.stepsList li {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.youtubeVideo,
+.googleMap {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.whatsappIcon {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  bottom: 70px;
+  right: 10px;
+  background-color: #075e54;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.whatsappIcon img {
+    width: 50%;
 }
