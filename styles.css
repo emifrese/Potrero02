@@ -9,20 +9,39 @@ body {
 }
 
 header {
-  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  position: fixed;
+  background-color: #cad2c5;
+  top: 0;
+  left: 0;
   text-align: center;
+  padding: 10px;
+}
+
+.logoImg {
+  border-radius: 50%;
 }
 
 main {
+  margin-top: 200px;
   margin-bottom: 80px;
 }
 
 footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
   width: 100%;
   position: fixed;
   background-color: #cad2c5;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
   bottom: 0;
   left: 0;
 }
@@ -37,24 +56,14 @@ h2 {
 .navbar {
   display: flex;
   justify-content: end;
-  width: 100%;
-  position: fixed;
-  background-color: #cad2c5;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  top: 0;
-  left: 0;
 }
 
 .navbarList {
   display: flex;
+  gap: 20px;
   width: 50%;
   list-style: none;
   justify-content: end;
-}
-
-.navbarList li {
-  margin-right: 20px;
 }
 
 .recipeIntroduction img {
@@ -66,7 +75,15 @@ h2 {
   font-style: italic;
   font-size: 50px;
 }
+
+.socialsContainer {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+
 .footerSocials {
+  width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -144,4 +161,21 @@ h2 {
 
 .whatsappIcon img {
   width: 50%;
+}
+
+.googleMapFooter {
+  margin: 1rem;
+}
+
+.developerInfo {
+  width: 15%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+.developerInfo a {
+  text-decoration: none;
+  color: #000;
 }
