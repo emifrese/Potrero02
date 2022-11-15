@@ -1,6 +1,6 @@
 const msg = "Bienvenida";
 
-// alert(msg);
+alert(msg);
 
 const button = document.querySelector("#adaptive");
 const body = document.querySelector("body");
