@@ -83,6 +83,16 @@ h2 {
   padding: 0;
 }
 
+.navbarList button {
+  border: none;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.navbarList button:hover {
+  background-color: #84a98c;
+}
+
 .recipeIntroduction {
   display: flex;
   flex-wrap: wrap;
@@ -134,6 +144,8 @@ h2 {
 .footerSocials img {
   width: 30px;
 }
+
+
 
 .recipeIntroduction figcaption {
   width: 50%;
@@ -213,13 +225,18 @@ h2 {
   border: 1px solid #000;
   border-radius: 10px;
   text-align: center;
-  padding: 5px;
   overflow: auto;
 }
 
-.developerInfo a {
-  text-decoration: none;
+.developerInfo:hover {
+  background-color: #075e54;
+}
+
+.developerInfo button {
+  width: 100%;
+  border: none;
   color: #000;
+  background: transparent
 }
 
 .box {
@@ -236,7 +253,7 @@ h2 {
   width: 18rem;
 }
 
-.row{
+.row {
   gap: 10px;
   justify-content: center;
 }
@@ -316,4 +333,27 @@ h2 {
   }
 }
 
-@media();
+.adaptive {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+}
+
+.adaptiveHeader, .adaptiveFooter {
+  background-color: #888;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.adaptiveCard {
+  background-color: #888;
+}
+.adaptiveCard p, .adaptiveCard h5 {
+  color: #000;
+  font-weight: 600;
+}
+
+.adaptiveCard a {
+  background-color: #000;
+  border: none;
+}
